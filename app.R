@@ -111,7 +111,7 @@ server <- function(input, output) {
             axis.title.x = element_blank(), 
             panel.background = element_rect(fill="white",color = "black", size = 0.5))
 
-      ggplotly(par_plot, tooltip = c('colour'))
+      ggplotly(par_plot, tooltip = c('colour', 'value'))
   }
     
   )
